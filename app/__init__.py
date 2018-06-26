@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, send_file
+from flask import Flask, render_template, send_file, url_for
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -19,5 +19,9 @@ def home():
 @app.route('/images/<string:image>')
 def return_image(image):
     filename = os.path.join(app.instance_path, 'static', 'images', image).replace("instance", "app")
-    return send_file(filename , mimetype="image/gif")
+    return send_file(filename, mimetype="image/gif")
 
+@app.route("/static/<string:js>")
+def return_js(js):
+    filename = os.path.join(app.instance_path, 'static', 'images', js).replace("instance", "app")
+    return send_file(filename, mimetype="image/gif")

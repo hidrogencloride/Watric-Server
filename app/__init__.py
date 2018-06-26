@@ -18,7 +18,7 @@ def home():
 
 @app.route('/images/<string:image>')
 def return_image(image):
-    filename = os.path.join(app.instance_path, 'images', image).replace("instance", "static")
+    filename = os.path.join(app.instance_path,'static', 'images', image).replace("instance", "app")
     return send_file(filename, mimetype="image/gif")
 
 @app.route("/static/<string:js>")

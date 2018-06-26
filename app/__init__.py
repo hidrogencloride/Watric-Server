@@ -18,10 +18,10 @@ def home():
 
 @app.route('/images/<string:image>')
 def return_image(image):
-    filename = os.path.join(app.instance_path, 'static', 'images', image)
+    filename = os.path.join(app.instance_path, 'images', image).replace("instance, static")
     return send_file(filename, mimetype="image/gif")
 
 @app.route("/static/<string:js>")
 def return_js(js):
-    filename = os.path.join(app.instance_path, 'static', js)
-    return send_file(filename, mimetype="image/gif")
+    filename = os.path.join(app.instance_path, js).replace("instance", "static" )
+    return send_file(filename, mimetype="application/javascript")

@@ -10,7 +10,6 @@ db = SQLAlchemy(app)
 
 # from models import Result ; Example code for future reference
 
-
 @app.route('/')
 def home():
     return render_template("landing-page.html")

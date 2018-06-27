@@ -18,3 +18,35 @@ from sqlalchemy.dialects.postgresql import JSON
 #
 #     def __repr__(self):
 #         return '<id {}>'.format(self.id)
+
+class User(db.Model):
+
+    __tablename__ = "User"
+
+    u_id = db.Column(db.Integer , primary_key=True)
+    name = db.Column(db.String, nullable=False)
+    username = db.Column(db.String, nullable=False, unique=True)
+    email = db.Column(db.String, nullable=False, unique=True)
+    password = db.Column(db.String, nullable=False)
+    verified = db.Column(db.Boolean, default=False)
+    purchases = db.relationship("Purchases", backref="User", lazy=False)
+
+class Products(db.Model):
+
+    __tablename__ = "Products"
+
+    p_id = db.Column(db.Integer, primary_key=True)
+    p_name = db.Column(db.String, nullable=False)
+    price = db.Column(db.Float, nullable=False)
+    accessory = db.Column(db.Boolean, nullable=False)
+
+
+class Purchases(db.Model):
+
+    __tablename__ = "Purchases"
+
+    pu_id = db.Column(db.Integer, primary_key=True)
+    u_id = db.Column(db.Integer, db.ForeignKey("User.u_id"), nullable=False)
+    p_id = db.Column(db.Integer, db.ForeignKey("Products.p_id"), nullable=False )
+
+

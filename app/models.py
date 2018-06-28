@@ -48,5 +48,22 @@ class Purchases(db.Model):
     pu_id = db.Column(db.Integer, primary_key=True)
     u_id = db.Column(db.Integer, db.ForeignKey("User.u_id"), nullable=False)
     p_id = db.Column(db.Integer, db.ForeignKey("Products.p_id"), nullable=False )
+    date = db.Column(db.DateTime, nullable=False)
 
+
+class ShippingInfo(db.Model):
+
+    __tablename__ = "ShippingInfo"
+
+    u_id = db.Column(db.Integer, db.ForeignKey("User.u_id"), nullable=False)
+    address = db.Column(db.String, nullable=False)
+    phone = db.Column(db.CHAR(10), nullable=False)
+
+
+class Wishlist(db.Model):
+
+    __tablename__ = "Wishlist"
+
+    u_id = db.Column(db.Integer, db.ForeignKey("User.u_id"), nullable=False)
+    p_id = db.Column(db.Integer, db.ForeignKey("Products.p_id"), nullable=False)
 

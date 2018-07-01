@@ -8,6 +8,7 @@ class Config(object):
     TESTING = False
     CSRF_ENABLED = True
     SECRET_KEY = 'this-really-needs-to-be-changed'
+    BCRYPT_LOG_ROUNDS = 13
 
 
 class ProductionConfig(Config):

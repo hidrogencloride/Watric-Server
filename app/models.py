@@ -40,6 +40,11 @@ class Products(db.Model):
     price = db.Column(db.Float, nullable=False)
     accessory = db.Column(db.Boolean, nullable=False)
 
+    def __init__(self, p_name, price, accessory):
+        self.p_name = p_name
+        self.price = price
+        self.accessory = accessory
+
 
 class Purchases(db.Model):
 
@@ -55,7 +60,7 @@ class ShippingInfo(db.Model):
 
     __tablename__ = "ShippingInfo"
 
-    u_id = db.Column(db.Integer, db.ForeignKey("User.u_id"), nullable=False)
+    u_id = db.Column(db.Integer, db.ForeignKey("User.u_id"), nullable=False, primary_key=True)
     address = db.Column(db.String, nullable=False)
     phone = db.Column(db.CHAR(10), nullable=False)
 
@@ -64,6 +69,6 @@ class Wishlist(db.Model):
 
     __tablename__ = "Wishlist"
 
-    u_id = db.Column(db.Integer, db.ForeignKey("User.u_id"), nullable=False)
-    p_id = db.Column(db.Integer, db.ForeignKey("Products.p_id"), nullable=False)
+    u_id = db.Column(db.Integer, db.ForeignKey("User.u_id"), nullable=False, primary_key=True)
+    p_id = db.Column(db.Integer, db.ForeignKey("Products.p_id"), nullable=False, primary_key=True)
 

@@ -7,8 +7,10 @@ from wtforms import StringField, PasswordField, BooleanField
 from wtforms.validators import InputRequired, Length
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_bcrypt import Bcrypt
+from flask_cors import CORS
 
 app = Flask(__name__, static_url_path='/app/static/images')
+cors = CORS(app, resources={r"/auth/*": {"origins":"*"}})
 app.config.from_object(os.environ['APP_SETTINGS'])
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
@@ -66,6 +68,7 @@ def return_image(image):
 @app.route("/static/<string:js>")
 def return_js(js):
     filename = os.path.join(app.instance_path,"static", js).replace("instance", "app")
+
     return send_file(filename, mimetype="application/javascript")
 
 ### end of resources routes ###

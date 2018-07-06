@@ -31,6 +31,7 @@ class User(db.Model):
     verified = db.Column(db.Boolean, default=False)
     purchases = db.relationship("Purchases", backref="User", lazy=False)
 
+
 class Products(db.Model):
 
     __tablename__ = "Products"
@@ -39,11 +40,6 @@ class Products(db.Model):
     p_name = db.Column(db.String, nullable=False)
     price = db.Column(db.Float, nullable=False)
     accessory = db.Column(db.Boolean, nullable=False)
-
-    def __init__(self, p_name, price, accessory):
-        self.p_name = p_name
-        self.price = price
-        self.accessory = accessory
 
 
 class Purchases(db.Model):

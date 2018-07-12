@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Register Baby</h1>
+    {% from "_formhelpers.html" import render_field %}
+    <form method="POST" action="">
+        {{ render_field(form.name,class="form-control") }}
+        {{ render_field(form.email,class="form-control") }}
+        {{ render_field(form.username,class="form-control") }}
+        {{ render_field(form.password,class="form-control",placeholder="Password") }}
+        {{ render_field(form.confirm,class="form-control",placeholder="Confirm Password") }}
+        <label class="pull-right">
+            <a href="#">Forgotten Password?</a>
+        </label>
+
+        <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Sign up</button>
+        <div class="register-link m-t-15 text-center">
+            <p>Already have an account ? <a href="#">Sign in Here</a></p>
+        </div>
+    </form>
+</body>
+</html>

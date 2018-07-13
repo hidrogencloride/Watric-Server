@@ -18,7 +18,7 @@ bcrypt = Bcrypt(app)
 # from models import Result ; Example code for future reference
 
 from app.models import *
-from Blueprints.AdminPage import admin_page
+from Blueprints.AdminBlueprint import admin_page
 
 db.create_all()
 

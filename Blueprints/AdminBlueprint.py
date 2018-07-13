@@ -22,21 +22,20 @@ class RegisterForm(Form):
 
 @admin_page.route('/adminlogin')
 def login():
-    return 'LOGIN'
-    # form = LoginForm()
-    # error = None
-    # global current_user
-    # if form.validate_on_submit():
-    #     user = User.query.filter_by(username=form.username.data.lower()).first()
-    #     if user:
-    #         hashed_password = generate_password_hash(user.password, method='sha256')
-    #         if check_password_hash(hashed_password, form.password.data):
-    #             app.logger.debug('Logged in user %s', user.username)
-    #             login_user(user, remember=form.remember.data)
-    #             current_user = user
-    #             return redirect(url_for('/main'))
-    #     error = 'Invalid username or password.'
-    # return render_template('login.html', form=form, error=error)
+    form = LoginForm()
+    error = None
+    global current_user
+    if form.validate():
+        user = User.query.filter_by(username=form.username.data.lower()).first()
+        if user:
+            hashed_password = generate_password_hash(user.password, method='sha256')
+            if check_password_hash(hashed_password, form.password.data):
+                app.logger.debug('Logged in user %s', user.username)
+                login_user(user, remember=form.remember.data)
+                current_user = user
+                return redirect(url_for('/main'))
+        error = 'Invalid username or password.'
+    return render_template('login.html', form=form, error=error)
 
 
 @admin_page.route('/create_admin')

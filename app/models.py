@@ -3,42 +3,7 @@ import jwt, datetime
 from sqlalchemy.dialects.postgresql import JSON
 
 
-# Example Code for future reference
-# class Result(db.Model):
-#     __tablename__ = 'results'
-#
-#     id = db.Column(db.Integer, primary_key=True)
-#     url = db.Column(db.String())
-#     result_all = db.Column(JSON)
-#     result_no_stop_words = db.Column(JSON)
-#
-#     def __init__(self, url, result_all, result_no_stop_words):
-#         self.url = url
-#         self.result_all = result_all
-#         self.result_no_stop_words = result_no_stop_words
-#
-#     def __repr__(self):
-#         return '<id {}>'.format(self.id)
-
-class User(db.Model):
-
-    __tablename__ = "User"
-
-    u_id = db.Column(db.Integer , primary_key=True)
-    name = db.Column(db.String, nullable=False)
-    username = db.Column(db.String, nullable=False, unique=True)
-    email = db.Column(db.String, nullable=False, unique=True)
-    password = db.Column(db.String, nullable=False)
-    verified = db.Column(db.Boolean, default=False)
-    purchases = db.relationship("Purchases", backref="User", lazy=False)
-
-    def __init__(self, name, username, email, password):
-        self.name = name,
-        self.username = username,
-        self.email = email,
-        self.password =  bcrypt.generate_password_hash(
-            password, app.config.get('BCRYPT_LOG_ROUNDS')
-        ).decode()
+class Account():
 
     def encode_auth_token(self, user_id):
         """
@@ -74,6 +39,42 @@ class User(db.Model):
         except jwt.InvalidTokenError:
             return 'Invalid token. Please log in again.'
 
+class User(db.Model, Account):
+
+    __tablename__ = "User"
+
+    u_id = db.Column(db.Integer , primary_key=True)
+    name = db.Column(db.String, nullable=False)
+    username = db.Column(db.String, nullable=False, unique=True)
+    email = db.Column(db.String, nullable=False, unique=True)
+    password = db.Column(db.String, nullable=False)
+    verified = db.Column(db.Boolean, default=False)
+    purchases = db.relationship("Purchases", backref="User", lazy=False)
+
+    def __init__(self, name, username, email, password):
+        self.name = name,
+        self.username = username,
+        self.email = email,
+        self.password =  bcrypt.generate_password_hash(
+            password, app.config.get('BCRYPT_LOG_ROUNDS')
+        ).decode()
+
+
+class Admin(db.Model, Account):
+
+    __tablename__ = "Admin"
+
+    a_id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String, nullable=False)
+    email = db.Column(db.String, nullable=False)
+    password = db.Column(db.String, nullable=False)
+
+    def __init__(self, name, email, password):
+        self.name = name,
+        self.email = email,
+        self.password =  bcrypt.generate_password_hash(
+            password, app.config.get('BCRYPT_LOG_ROUNDS')
+        ).decode()
 
 class Products(db.Model):
 

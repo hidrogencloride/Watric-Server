@@ -7,10 +7,10 @@ from wtforms import StringField, PasswordField, BooleanField
 from wtforms.validators import InputRequired, Length
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_bcrypt import Bcrypt
-# from flask_cors import CORS
+from flask_cors import CORS
 
 app = Flask(__name__, static_url_path='/app/static/images')
-# cors = CORS(app, resources={r"/auth/*": {"origins":"*"}})
+cors = CORS(app, resources={r"/auth/*": {"origins":"*"}})
 app.config.from_object(os.environ['APP_SETTINGS'])
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
@@ -28,7 +28,7 @@ app.register_blueprint(admin_page)
 # login_manager.init_app(app)
 
 
-@app.route('/main')
+@app.route('/')
 def home():
     return render_template("landing-page.html")
 
@@ -168,7 +168,8 @@ def getStatus():
                     'user_id': user.u_id,
                     'email': user.email,
                     'name': user.name,
-                    'purchases': user.purchases
+                    'purchases': user.purchases,
+                    'addresses': user.addresses
                 }
             }
             return make_response(jsonify(responseObject)), 200

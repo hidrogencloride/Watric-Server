@@ -50,6 +50,7 @@ class User(db.Model, Account):
     password = db.Column(db.String, nullable=False)
     verified = db.Column(db.Boolean, default=False)
     purchases = db.relationship("Purchases", backref="User", lazy=False)
+    addresses = db.relationship("ShippingInfo", backref="User", lazy=False)
 
     def __init__(self, name, username, email, password):
         self.name = name,

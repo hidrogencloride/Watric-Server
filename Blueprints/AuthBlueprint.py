@@ -203,6 +203,7 @@ def add_address():
         }
         return make_response(jsonify(responseObject)), 403
 
+
 @auth_api.route('/auth/delete-address', methods=["POST"])
 def delete_address():
     auth_token = get_auth_token()

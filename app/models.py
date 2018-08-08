@@ -100,8 +100,13 @@ class Products(db.Model):
 
     p_id = db.Column(db.Integer, primary_key=True)
     p_name = db.Column(db.String, nullable=False)
-    price = db.Column(db.Float, nullable=False)
+    price = db.Column(db.Integer, nullable=False)
     accessory = db.Column(db.Boolean, nullable=False)
+
+    def __init__(self, p_name, price, accessory):
+        self.p_name = p_name
+        self.price = price
+        self.accessory = accessory
 
 
 class Purchases(db.Model):

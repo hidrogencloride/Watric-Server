@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Parallax Website Demo</title>
+    <title>Water</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <style>
         body, html{
             height:100%;
+            width: 100%;
             margin:0;
             font-size:16px;
             font-family:"Lato", sans-serif;
@@ -82,7 +83,7 @@
             text-transform:uppercase;
         }
 
-        .ptext .border{
+        .ptext .my-border{
             background-color:#111;
             color:#fff;
             padding:20px;
@@ -96,9 +97,47 @@
             background-color: #000000;
         }
 
+        #launch-date{
+            position: relative;
+            z-index:1;
+            padding:10px;
+        }
+
+        #launch-date::before{
+            content: '';
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right:0;
+            background-color: yellow;
+            opacity:0.4;
+        }
+
+
         @media(max-width:568px){
             .pimg1, .pimg2, .pimg3{
                 background-attachment:scroll;
+            }
+
+            .ptext .my-border{
+                background-color:transparent;
+                border-color: transparent;
+                position: absolute;
+                left:2%;
+                right:2%;
+
+            }
+            .my-border::before{
+                content: '';
+                position: absolute;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: black;
+                opacity:0.7;
+                z-index: -1;
             }
         }
 
@@ -106,12 +145,12 @@
 </head>
 <body>
         <nav id="the-nav" class="navbar navbar-dark bg-dark ">
-            <a class="navbar-brand" href="watric-server-stage" style=" font-size:27px;letter-spacing:8px;text-transform:uppercase;">WATRIC</a>
+            <a class="navbar-brand" href="/" style=" font-size:27px;letter-spacing:8px;text-transform:uppercase;">WATRIC</a>
         </nav>
 
         <div class="pimg1">
             <div class="ptext">
-              <span class="border">
+              <span class="my-border">
                 Water
               </span>
             </div>
@@ -120,53 +159,71 @@
         <section class="section section-light">
             <h2>The Problem</h2>
             <p>
-                With the demand for water increasing every year around 843 million people live without access to safe water. On the way the market of sustainability is growing drastically but it concentrates on energy leaving aside the development of sustainable water sources. Our purpose is to give water sustainability to each house and individual.
+                With the demand for water increasing every year,
+                around 843 million people live without safe access to this essential resource.
+                As it is, the market for sustainability is growing drastically, but it concentrates on energy,
+                leaving aside the development of sustainable water sources. Our dedication is to give reliable water to everyone.
             </p>
         </section>
 
         <div class="pimg2">
             <div class="ptext">
-              <span class="border">
-                For the community and the world
+              <span class="my-border">
+                How do we achieve it?
               </span>
             </div>
         </div>
 
         <section class="section section-dark">
             <h2>Our Solution</h2>
-
             <p>
                 Our team is working every day to achieve a water generator that can supply to your entire house making it sustainable on water and taking you away from water bills. We expect to achieve with our final model a water production of 100 gallons peer day so any home can collect up to 700 gallons in a week and run a full average house.
-
             </p>
         </section>
 
         <div class="pimg3">
             <div class="ptext">
-              <span class="border">
+              <span class="my-border">
                 Water Directly From Air
               </span>
             </div>
         </div>
 
         <section class="section section-dark">
-            <h2>How?</h2>
+            <h2>Revolutionary Product!</h2>
             <p>
-                We are developing a technology where we achieve water production directly from air and free of air compression systems. Leading us to provide water production at the lowest energy cost and maintenance. With an autonomous system developed by us we are able to adapt to the external environment, ensuring the production of water in many places.
+               Producing water from air means that you won’t worry about
+                buying water refill anymore. You have the option to produce
+                your own water at home, which is cost-effective and sustainable.
+                Let’s not forget that it will impact places with low access.
             </p>
         </section>
 
         <div class="pimg4">
             <div class="ptext">
-              <span class="border">
+              <span class="my-border">
                 Water sustainability at home
               </span>
             </div>
         </div>
-
+        <section class="section section=dark">
+            <h2>We are a commited team!</h2>
+            <p>
+                Our team works to achieve a water generator that can supply an entire house.
+                Water bills won’t be a problem anymore as we expect to achieve, with our final model,
+                a water production of 100 gallons per day. It makes possible for any home to collect up to 700 gallons
+                in a week and run a full average house.
+            </p>
+        </section>
         <section class="section section-light" style="padding-bottom: 120px">
             <h2>Meet Walt</h2>
-            <div style="margin-top:10px;width:100%; height:600px" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <p>
+                WALT is the drinking only compact version of our atmospherics water generators that will make drinkable water.
+                It’ll be the water fountain that can be placed in your kitchen, backyard, terrace or office. Say goodbye to
+                paying for water bottles or refill. Its scale of water production is 3 gallons per day,
+                and if you want to increase the water production, you can always have more than one working together.
+            </p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -196,7 +253,7 @@
 
         <div class="pimg5" >
             <div class="ptext">
-              <span class="border">
+              <span class="my-border">
                 Walt's Purpose
               </span>
             </div>
@@ -208,7 +265,7 @@
                 sustainability in water is and at the same time you support our development and the impulse for a better sustainable world.
             </p>
             <br />
-            <h3>
+            <h3 id="launch-date">
                 Launch Date: November 2018
             </h3>
             <br />

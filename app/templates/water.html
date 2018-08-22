@@ -12,10 +12,10 @@
             height:100%;
             width: 100%;
             margin:0;
-            font-size:16px;
+            font-size:25px;
             font-family:"Lato", sans-serif;
             font-weight:400;
-            line-height:1.8em;
+            line-height:1.6em;
             color:#666;
         }
 
@@ -55,6 +55,7 @@
 
         .pimg5{
             min-height:400px;
+            background-color:#f4f4f4 ;
         }
 
         .section{
@@ -103,11 +104,9 @@
             padding:10px;
         }
 
-        #carouselExampleIndicators{
-            color:black;
-        }
+
         .carousel .carousel-item img {
-          max-height: 600px;
+          max-height: 700px;
           min-width: auto;
         }
         .carousel-control-prev-icon {
@@ -131,6 +130,16 @@
                 background-attachment:scroll;
             }
 
+            .section{
+                text-align:initial;
+                /*padding:15px 10px;*/
+                padding:20px 50px;
+            }
+
+            .section > h2{
+                text-align: center;
+            }
+
             .ptext .my-border{
                 background-color:transparent;
                 border-color: transparent;
@@ -150,9 +159,16 @@
                 opacity:0.7;
                 z-index: -1;
             }
-            .section{
-                padding: 30px;
-                font-size: 20px;
+            /*.section{*/
+                /*padding: 30px;*/
+                /*font-size: 20px;*/
+            /*}*/
+            .action-btn{
+                margin-bottom:15px;
+                padding:20px;
+            }
+            #action-buttons{
+                text-align: center;
             }
         }
 
@@ -241,7 +257,7 @@
             </p>
             <img class="img img-responsive walt d-none d-md-block "  src="/images/HorizontalWalt.PNG"/>
             <div class=" d-md-none ">
-                <div  class="carousel slide" data-ride="carousel">
+                <div  id="walt-model" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -258,11 +274,11 @@
                             <img class="d-block w-100" src="images/3.png" alt="Third slide">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#walt-model" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#walt-model" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -312,19 +328,19 @@
                     </a>
                 </div>
             </div>
-            </div>
+
             <h3 id="launch-date">
                 Launch Date: November 2018
             </h3>
             <br />
-            <div class="row">
-                <div class="col-md-6">
-                    <button class="btn btn-primary">
+            <div class="row" id="action-buttons">
+                <div class="col-md-6 col-xs-12">
+                    <button  class="btn btn-primary action-btn">
                         Support us
                     </button>
                 </div>
-                <div class="col-md-6">
-                    <button class="btn btn-secondary">
+                <div class="col-md-6 col-xs-12">
+                    <button  class="btn btn-secondary action-btn">
                         Pre-Order Now
                     </button>
                 </div>

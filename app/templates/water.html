@@ -118,15 +118,19 @@
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
         }
 
+        .walt{
+            margin:auto;
+            max-width:100%;
+            min-height: 200px;
+
+        }
+
+
         @media(max-width:568px){
             .pimg1, .pimg2, .pimg3{
                 background-attachment:scroll;
             }
-              .walt{
-                width:300px;
-                height:100px;
-                margin-left:-20%;
-            }
+
             .ptext .my-border{
                 background-color:transparent;
                 border-color: transparent;
@@ -146,15 +150,12 @@
                 opacity:0.7;
                 z-index: -1;
             }
-        }
-
-        @media (max-width: 400px){
-            .walt{
-                width:300px;
-                height:100px;
-                margin-left:-20%;
+            .section{
+                padding: 30px;
+                font-size: 20px;
             }
         }
+
 
     </style>
 </head>
@@ -229,6 +230,7 @@
               </span>
             </div>
         </div>
+
         <section class="section section-light" style="padding-bottom: 120px">
             <h2>Meet Walt</h2>
             <p>
@@ -237,8 +239,35 @@
                 paying for water bottles or refill. Its scale of water production is 3 gallons per day,
                 and if you want to increase the water production, you can always have more than one working together.
             </p>
-            <img class="img img-responsive walt" width="50%" src="/images/HorizontalWalt.PNG"/>
-
+            <img class="img img-responsive walt d-none d-md-block "  src="/images/HorizontalWalt.PNG"/>
+            <div class=" d-md-none ">
+                <div  class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" >
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/3.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </section>
 
         <div class="pimg5" >
@@ -255,32 +284,33 @@
                 sustainability in water is and at the same time you support our development and the impulse for a better sustainable world.
             </p>
             <br />
-
-            <div id="carouselExampleIndicators" style="height:60%;" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" >
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="images/prototype1.jpg" alt="First slide">
+            <div class="carousel-container">
+                <div id="carouselExampleIndicators"  class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" >
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/prototype1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/prototype2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/prototype3.jpg" alt="Third slide">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/prototype2.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/prototype3.jpg" alt="Third slide">
-                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
             </div>
             <h3 id="launch-date">

@@ -35,7 +35,7 @@
 
         .pimg1{
             background-image:url('/images/blue-bottle-close-up-327090.jpg');
-            min-height:100%;
+            min-height:65%;
         }
 
         .pimg2{
@@ -50,10 +50,11 @@
 
         .pimg4{
             background-image:url('/images/faucet-interior-kitchen-6256.jpg');
-            min-height:100%;
+            min-height:400px;
         }
 
         .pimg5{
+             background-image:url('/images/prototype3.jpg');
             min-height:400px;
             background-color:#f4f4f4 ;
         }
@@ -125,10 +126,17 @@
         }
 
 
+        @media(min-width:2560px){
+            .carousel .carousel-item img {
+          max-height: 100%;
+          min-width: auto;
+        }
+        }
+
         @media(max-width:568px){
-            /*.pimg1, .pimg2, .pimg3{*/
-                /*background-attachment:scroll;*/
-            /*}*/
+            .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+                background-attachment:scroll;
+            }
 
              body, html{
             height:100%;
@@ -147,7 +155,7 @@
             .section{
                 text-align:initial;
                 /*padding:15px 10px;*/
-                padding:20px 15px;
+                padding:5px 15px;
             }
 
             .section > h2{
@@ -215,13 +223,13 @@
         <div class="pimg2">
             <div class="ptext">
               <span class="my-border">
-                How do we achieve it?
+                Our Solution
               </span>
             </div>
         </div>
 
         <section class="section section-dark">
-            <h2>Our Solution</h2>
+            <!--<h2>Our Solution</h2>-->
             <p>
                We are developing a technology where we produce water directly from air and free of air compression systems.
                 Leading us to provide water at the lowest energy cost and maintenance. In such a way, with an autonomous system,
@@ -232,13 +240,12 @@
         <div class="pimg3">
             <div class="ptext">
               <span class="my-border">
-                Water Directly From Air
+                Water From Air
               </span>
             </div>
         </div>
 
         <section class="section section-dark">
-            <h2>Revolutionary Product!</h2>
             <p>
                Producing water from air means that you won’t worry about
                 buying water refill anymore. You have the option to produce
@@ -275,7 +282,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
                     </ol>
                     <div class="carousel-inner" >
                         <div class="carousel-item active">
@@ -283,9 +290,6 @@
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="images/2.png" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="images/3.png" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#walt-model" role="button" data-slide="prev">
@@ -319,17 +323,13 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" >
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="images/prototype1.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="images/prototype2.jpg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="images/prototype3.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="images/prototype4.jpg" alt="Second slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

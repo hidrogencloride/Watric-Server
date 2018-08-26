@@ -36,6 +36,7 @@
         .pimg1{
             background-image:url('/images/blue-bottle-close-up-327090.jpg');
             min-height:65%;
+
         }
 
         .pimg2{
@@ -54,9 +55,10 @@
         }
 
         .pimg5{
-             background-image:url('/images/prototype3.jpg');
+            background-image:url('/images/prototype3.jpg');
             min-height:400px;
             background-color:#f4f4f4 ;
+            opacity: 0.9;
         }
 
         .section{
@@ -162,7 +164,7 @@
                 text-align: center;
             }
 
-            .ptext .my-border{
+            .ptext > .my-border{
                 background-color:transparent;
                 border-color: transparent;
                 position: absolute;
@@ -178,9 +180,13 @@
                 left: 0;
                 right: 0;
                 background-color: black;
-                opacity:0.7;
+                opacity:0.9;
                 z-index: -1;
             }
+            /*.pimg5 > .ptext > .my-border{*/
+                /*background-color: black;*/
+                /*opacity: 0.7;*/
+            /*}*/
             /*.section{*/
                 /*padding: 30px;*/
                 /*font-size: 20px;*/
@@ -342,7 +348,7 @@
                     </a>
                 </div>
             </div>
-
+            <p class="text-center">The First Walt Prototype</p>
             <h3 id="launch-date">
                 Launch Date: November 2018
             </h3>

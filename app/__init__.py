@@ -42,6 +42,10 @@ def add_product():
 def home():
     return render_template("landing-page.html")
 
+@app.route('/croqui')
+def croqui():
+    return render_template("croqui.html")
+
 @app.route('/water')
 def water():
     return render_template("water.html")

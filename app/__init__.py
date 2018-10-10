@@ -50,6 +50,22 @@ def croqui():
 def water():
     return render_template("water.html")
 
+@app.route('/naturalWind')
+def naturalWind():
+    return render_template("naturalWind.html")
+
+@app.route('/nonNaturalWind')
+def nonNaturalWind():
+    return render_template("nonNaturalWind.html")
+
+@app.route('/illumination')
+def illumination():
+    return render_template("illumination.html")
+
+@app.route('/videoTest')
+def videoTest():
+    return render_template("videoTest.html")
+
 ### Resources routes ###
 @app.route('/images/<string:image>')
 def return_image(image):

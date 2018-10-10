@@ -4,3 +4,5 @@ Bash:
 Windows:
 	SET APP_SETTINGS=config.DevelopmentConfig
 	SET DATABASE_URL=postgresql://postgres:[LOCAL DEV PASSWORD]@localhost:5432/watric_dev
+
+	SET DATABASE_URL=postgresql://postgres:watricfall@localhost:5432/watric_dev

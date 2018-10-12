@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="Updated HTMLs">
+    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="New version for heroku">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/HorizontalWalt.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/faucet-interior-kitchen-6256.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/illumination.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/illumination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/naturalWind.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/naturalWind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/nonNaturalWind.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nonNaturalWind.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/water.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/water.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,12 +32,12 @@
     <session id="-586628042">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="6" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
@@ -57,7 +46,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,17 +74,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="envVars" value="12" />
-          <entry key="html" value="2495" />
+          <entry key="html" value="2671" />
           <entry key="js" value="4" />
           <entry key="py" value="416" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2495" />
+          <entry key="HTML" value="2671" />
           <entry key="JavaScript" value="4" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="PLAIN_TEXT" value="58" />
           <entry key="Python" value="416" />
         </counts>
       </usages-collector>
@@ -103,11 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/envVars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="79" />
+              <caret line="7" column="79" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -124,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/water.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="372" column="46" selection-start-line="372" selection-start-column="46" selection-end-line="372" selection-end-column="46" />
+            <state relative-caret-position="249">
+              <caret line="381" column="46" lean-forward="true" selection-start-line="381" selection-start-column="46" selection-end-line="381" selection-end-column="46" />
               <folding>
                 <element signature="e#481#720#0" />
                 <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -136,7 +125,6 @@
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -148,43 +136,6 @@
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#7;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/illumination.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,10 +183,10 @@
         <option value="$PROJECT_DIR$/app/templates/videoTest.html" />
         <option value="$PROJECT_DIR$/envVars" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/templates/water.html" />
         <option value="$PROJECT_DIR$/app/templates/naturalWind.html" />
         <option value="$PROJECT_DIR$/app/templates/illumination.html" />
         <option value="$PROJECT_DIR$/app/templates/nonNaturalWind.html" />
+        <option value="$PROJECT_DIR$/app/templates/water.html" />
       </list>
     </option>
   </component>
@@ -247,7 +198,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -273,13 +224,6 @@
               <item name="Watric-Server" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Watric-Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Watric-Server" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,13 +311,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539212884678</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New version for heroku">
+      <created>1539357025377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539357025377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979867" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,7 +357,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated HTMLs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated HTMLs" />
+    <MESSAGE value="New version for heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="New version for heroku" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -615,10 +568,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/envVars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/water.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="372" column="46" selection-start-line="372" selection-start-column="46" selection-end-line="372" selection-end-column="46" />
+        <state relative-caret-position="249">
+          <caret line="381" column="46" lean-forward="true" selection-start-line="381" selection-start-column="46" selection-end-line="381" selection-end-column="46" />
           <folding>
             <element signature="e#481#720#0" />
             <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -626,7 +586,6 @@
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
@@ -638,21 +597,7 @@
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#7;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/envVars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="79" />
         </state>
       </provider>
     </entry>

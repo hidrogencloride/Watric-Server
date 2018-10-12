@@ -19,7 +19,7 @@
             color:#666;
         }
 
-        .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+        .pimg1, .pimg5{
             position:relative;
             opacity:0.70;
             background-position:center;
@@ -30,6 +30,14 @@
               fixed = parallax
               scroll = normal
             */
+            background-attachment:fixed;
+        }
+
+        .pimg2, .pimg3, .pimg4{
+            position:relative;
+            background-position:center;
+            background-size:cover;
+            background-repeat:no-repeat;
             background-attachment:fixed;
         }
 
@@ -51,7 +59,7 @@
 
         .pimg4{
             background-image:url('/images/highway-with-turbines.png');
-            min-height:400px;
+            min-height: 550px; px;
         }
 
         .pimg5{
@@ -63,7 +71,7 @@
 
         .section{
             text-align:center;
-            padding:50px 80px;
+            padding:10px 80px;
         }
 
         .section-light{

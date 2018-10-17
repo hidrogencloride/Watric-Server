@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Water</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body, html{
+            height:100%;
+            width: 100%;
+            margin:0;
+            font-size:25px;
+            font-family:"Lato", sans-serif;
+            font-weight:400;
+            line-height:1.6em;
+            color:#666;
+        }
+
+        .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+            position:relative;
+            background-position:center;
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+        }
+
+        .pimg1{
+            background-image:url('/images/abstract-background-bubble-268883.jpg');
+            min-height:65%;
+
+        }
+
+        .pimg2{
+            background-image:url('/images/blowball-dandelion-dandelion-seed-54300.jpg');
+            min-height:400px;
+        }
+
+        .pimg3{
+            background-image:url('/images/bubble-clean-clear-339119.jpg');
+            min-height:400px;
+        }
+
+        .pimg4{
+            background-image:url('/images/faucet-interior-kitchen-6256.jpg');
+            min-height:400px;
+        }
+
+        .pimg5{
+            background-image:url('/images/prototype3.jpg');
+            min-height:400px;
+            background-color:#f4f4f4 ;
+            opacity: 0.9;
+        }
+
+        .section{
+            text-align:center;
+            padding:50px 80px;
+        }
+
+        .section-light{
+            background-color:#f4f4f4;
+            color:#666;
+        }
+
+        .section-dark{
+            background-color:#282e34;
+            color:#ddd;
+        }
+
+        .ptext{
+            position:absolute;
+            top:50%;
+            width:100%;
+            text-align:center;
+            color:#000;
+            font-size:27px;
+            letter-spacing:8px;
+            text-transform:uppercase;
+        }
+
+        .ptext .my-border{
+            background-color:#111;
+            color:#fff;
+            padding:20px;
+        }
+
+        .ptext .border.trans{
+            background-color:transparent;
+        }
+
+        #the-nav{
+            background-color: #000000;
+        }
+
+        #launch-date{
+            position: relative;
+            z-index:1;
+            padding:10px;
+        }
+
+
+        .carousel .carousel-item img {
+          max-height: 700px;
+          min-width: auto;
+        }
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        }
+
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        }
+
+        .walt{
+            margin:auto;
+            max-width:100%;
+            min-height: 200px;
+
+        }
+
+
+        @media(min-width:2560px){
+            .carousel .carousel-item img {
+          max-height: 100%;
+          min-width: auto;
+        }
+        }
+
+        @media(max-width:568px){
+            .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+                background-attachment:scroll;
+            }
+
+             body, html{
+            height:100%;
+            width: 100%;
+            margin:0;
+            font-size:16px;
+            font-family:"Lato", sans-serif;
+            font-weight:400;
+            line-height:1.5em;
+            color:#666;
+        }
+            p{
+                font-size: 15px;
+            }
+
+            .section{
+                text-align:initial;
+                /*padding:15px 10px;*/
+                padding:5px 15px;
+            }
+
+            .section > h2{
+                text-align: center;
+            }
+
+            .ptext > .my-border{
+                background-color:transparent;
+                border-color: transparent;
+                position: absolute;
+                left:2%;
+                right:2%;
+
+            }
+            .my-border::before{
+                content: '';
+                position: absolute;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: black;
+                opacity:0.7;
+                z-index: -1;
+            }
+            /*.pimg5 > .ptext > .my-border{*/
+                /*background-color: black;*/
+                /*opacity: 0.7;*/
+            /*}*/
+            /*.section{*/
+                /*padding: 30px;*/
+                /*font-size: 20px;*/
+            /*}*/
+            .action-btn{
+                margin-bottom:15px;
+                padding:20px;
+            }
+            #action-buttons{
+                text-align: center;
+            }
+        }
+
+        img {
+            border-radius: 60%;
+        }
+    </style>
+</head>
+<body style="background-color:#f4f4f4;">
+        <nav id="the-nav" class="navbar navbar-dark bg-dark ">
+            <a class="navbar-brand" href="/" style=" font-size:27px;letter-spacing:8px;text-transform:uppercase;">WATRIC</a>
+        </nav>
+
+        <div class="pimg1">
+            <div class="ptext">
+              <span class="my-border">
+                About Us
+              </span>
+            </div>
+        </div>
+
+        <section class="section section-light">
+            <p>
+                Everything that involves sustainability is part of our interests. We are a start-up that wants to help
+                the world achieve a sustainable future full of access to resources and renewable energy, by developing
+                our concepts in creations.
+            </p>
+
+            <p>
+                Since our origins are from Puerto Rico, a Caribbean island exposed to natural phenomena, such as
+                hurricanes and droughts, we are conscious of the importance of illumination, energy, and water.
+            </p>
+
+            <p>
+                This is how we decided to concentrate, not only on the collective sustainability but also on the
+                individual one. The life experience that our island provides us is our inspiration for the products in
+                growth. Through our values, we aim to contribute to a sustainable world.
+            </p>
+        </section>
+
+        <section class="section section-dark">
+            <h1>Our Founder</h1>
+
+            <img src="images/founder-walt-4-square.jpg" alt="founder" height=25% width=25% align="center">
+
+            <p>
+                Karlos Lenniel is an 18-year-old visionary that puts his ideas in motion, first in paper and then
+                into creations. Born and raised in Puerto Rico, a Caribbean island has impacted his outlook on a
+                sustainable life.
+            </p>
+            <p>
+                A product of the public-school system, he’s on track to make renewable resources
+                accessible for everyone. Focused on innovation, his goal is to give environmental sustainability to
+                people, so they can have access to essential resources. Currently, he’s studying Mechanical Engineering
+                at University of Puerto Rico, Mayagüez Campus. As it is, achieving an inclusive world through our
+                company inventions it’s his ultimate dream.
+            </p>
+        </section>
+
+       
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

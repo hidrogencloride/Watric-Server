@@ -66,6 +66,10 @@ def illumination():
 def videoTest():
     return render_template("videoTest.html")
 
+@app.route('/autobiography')
+def autobiography():
+    return render_template("autobiography.html")
+
 ### Resources routes ###
 @app.route('/images/<string:image>')
 def return_image(image):

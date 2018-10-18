@@ -75,3 +75,19 @@ def load_purchases():
     for p in purchases:
         mapped_result.append({'pu_id': p.pu_id, 'u_id': p.u_id, 'p_id': p.p_id, 'date': p.date})
     return jsonify(mapped_result)
+
+@admin_page.route('/products')
+def load_products():
+    products = Products.query.all()
+    mapped_result = []
+    for p in products:
+        mapped_result.append([p.p_id, p.p_name, p.price, p.accessory])
+    return jsonify(Products=mapped_result)
+
+@admin_page.route('/users')
+def load_users():
+    users = Users.query.all()
+    mapped_result = []
+    for u in users:
+        mapped_result.append({'u_id': u.u_id, 'name': u.name, 'username': u.username, email: 'u.email'})
+    return jsonify(Users=mapped_result)

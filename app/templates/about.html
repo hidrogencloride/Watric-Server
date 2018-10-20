@@ -16,52 +16,21 @@
             font-family:"Lato", sans-serif;
             font-weight:400;
             line-height:1.6em;
-            color:#666;
         }
 
-        .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
-            position:relative;
-            background-position:center;
-            background-size:cover;
-            background-repeat:no-repeat;
-            background-attachment:fixed;
-        }
-
-        .pimg1{
-            background-image:url('/images/abstract-background-bubble-268883.jpg');
-            min-height:65%;
-
-        }
-
-        .pimg2{
-            background-image:url('/images/blowball-dandelion-dandelion-seed-54300.jpg');
-            min-height:400px;
-        }
-
-        .pimg3{
-            background-image:url('/images/bubble-clean-clear-339119.jpg');
-            min-height:400px;
-        }
-
-        .pimg4{
-            background-image:url('/images/faucet-interior-kitchen-6256.jpg');
-            min-height:400px;
-        }
-
-        .pimg5{
-            background-image:url('/images/prototype3.jpg');
-            min-height:400px;
-            background-color:#f4f4f4 ;
-            opacity: 0.9;
+        p{
+            text-align: justify;
+            padding: 30px
         }
 
         .section{
             text-align:center;
-            padding:50px 80px;
+            padding:5px 15px;
+            color: white;
         }
 
         .section-light{
-            background-color:#f4f4f4;
+            background-color: #f4f4f4;
             color:#666;
         }
 
@@ -70,64 +39,14 @@
             color:#ddd;
         }
 
-        .ptext{
-            position:absolute;
-            top:50%;
-            width:100%;
-            text-align:center;
-            color:#000;
-            font-size:27px;
-            letter-spacing:8px;
-            text-transform:uppercase;
-        }
-
-        .ptext .my-border{
-            background-color:#111;
-            color:#fff;
-            padding:20px;
-        }
-
-        .ptext .border.trans{
-            background-color:transparent;
-        }
-
         #the-nav{
             background-color: black;
             padding: 12px;
         }
 
-        #launch-date{
-            position: relative;
-            z-index:1;
-            padding:10px;
-        }
-
-
-        .carousel .carousel-item img {
-          max-height: 700px;
-          min-width: auto;
-        }
-        .carousel-control-prev-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-        }
-
-        .carousel-control-next-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-        }
-
-        .walt{
-            margin:auto;
-            max-width:100%;
-            min-height: 200px;
-
-        }
-
-
-        @media(min-width:2560px){
-            .carousel .carousel-item img {
-          max-height: 100%;
-          min-width: auto;
-        }
+        .aboutPic {
+            padding-right: 30px;
+            padding-left: 20px;
         }
 
         @media(max-width:568px){
@@ -147,26 +66,14 @@
         }
             p{
                 font-size: 15px;
-            }
-
-            .section{
-                text-align:initial;
-                /*padding:15px 10px;*/
-                padding:5px 15px;
+                text-align: center;
+                background-color: rgba(255, 255, 255, 0.5);
             }
 
             .section > h2{
                 text-align: center;
             }
 
-            .ptext > .my-border{
-                background-color:transparent;
-                border-color: transparent;
-                position: absolute;
-                left:2%;
-                right:2%;
-
-            }
             .my-border::before{
                 content: '';
                 position: absolute;
@@ -178,72 +85,52 @@
                 opacity:0.7;
                 z-index: -1;
             }
-            /*.pimg5 > .ptext > .my-border{*/
-                /*background-color: black;*/
-                /*opacity: 0.7;*/
-            /*}*/
-            /*.section{*/
-                /*padding: 30px;*/
-                /*font-size: 20px;*/
-            /*}*/
-            .action-btn{
-                margin-bottom:15px;
-                padding:20px;
-            }
-            #action-buttons{
-                text-align: center;
-            }
-        }
-
-        img {
-            border-radius: 60%;
         }
     </style>
 </head>
-<body style="background-color:#f4f4f4;">
+<body style="background-color: black;">
         <nav id="the-nav">
             <img src="images/logo.png" width="3%" height="3%">
             <a class="navbar-brand" href="/" style="color: white; font-size:27px;letter-spacing:8px;text-transform:uppercase;">WATRIC</a>
         </nav>
 
-        <div class="pimg1">
-            <div class="ptext">
-              <span class="my-border">
-                About Us
-              </span>
-            </div>
+        <div align="center">
+            <img src="images/watric-logo-dark-1-narrow.png">
         </div>
 
-        <section class="section section-light">
+        <section class="section">
             <p>
-                Everything that involves sustainability is part of our interests. We are a start-up that wants to help
-                the world achieve a sustainable future full of access to resources and renewable energy, by developing
-                our concepts in creations.
-            </p>
+                At Watric, we are interested in everything that involves sustainability. Our mission is to achieve
+                total sustainability in your home through the development of innovative products. We are a start-up
+                focused on helping the world reach a sustainable future full of access to resources and renewable energy.
 
-            <p>
-                Since our origins are from Puerto Rico, a Caribbean island exposed to natural phenomena, such as
-                hurricanes and droughts, we are conscious of the importance of illumination, energy, and water.
-            </p>
+                </br></br>
 
-            <p>
-                This is how we decided to concentrate, not only on the collective sustainability but also on the
-                individual one. The life experience that our island provides us is our inspiration for the products in
-                growth. Through our values, we aim to contribute to a sustainable world.
+                Since we originate from Puerto Rico, a Caribbean island exposed to natural phenomena, such as
+                hurricanes and droughts, we are conscious of the importance of illumination, energy, and water. The
+                life experience that our island provides us is our inspiration for our products in development.
+
+                </br></br>
+
+                This is what we have decided to concentrate on, not only on the collective sustainability but also on the
+                individual one. Through our values, we aim to contribute to a sustainable world.
             </p>
         </section>
 
-        <section class="section section-dark">
-            <h1>Our Founder</h1>
+        <section class="section">
 
-            <img src="images/founder-walt-4-square.jpg" alt="founder" height=25% width=25% align="center">
+            <img class="aboutPic" src="images/founder-walt-4-square.jpg" alt="founder" height=50% width=50% align="left">
+
+            <h1 align="left">Karlos Lenniel</h1>
+            <h2 align="left"><i>Our Founder</i></h2>
 
             <p>
                 Karlos Lenniel is an 18-year-old visionary that puts his ideas in motion, first in paper and then
                 into creations. Born and raised in Puerto Rico, a Caribbean island has impacted his outlook on a
                 sustainable life.
-            </p>
-            <p>
+
+                </br></br>
+
                 A product of the public-school system, he’s on track to make renewable resources
                 accessible for everyone. Focused on innovation, his goal is to give environmental sustainability to
                 people, so they can have access to essential resources. Currently, he’s studying Mechanical Engineering
@@ -251,8 +138,6 @@
                 company inventions it’s his ultimate dream.
             </p>
         </section>
-
-       
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
                 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

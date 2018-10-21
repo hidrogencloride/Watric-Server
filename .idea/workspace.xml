@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="Product pages updated">
+    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="Product and about pages updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/LiveTurbine.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/LiveTurbine.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/illumination.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/illumination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/landing-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/landing-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/naturalWind.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/naturalWind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/nonNaturalWind.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nonNaturalWind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/water.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/water.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +38,8 @@
     <session id="-586628042">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="54" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="55" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="11" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="5" />
@@ -49,14 +53,14 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="56" />
+          <entry key="project.opened" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="README" value="1" />
           <entry key="envVars" value="5" />
-          <entry key="html" value="59" />
+          <entry key="html" value="63" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="4" />
           <entry key="js" value="9" />
@@ -67,7 +71,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="59" />
+          <entry key="HTML" value="63" />
           <entry key="Image" value="6" />
           <entry key="JavaScript" value="9" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -77,17 +81,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="envVars" value="12" />
-          <entry key="html" value="4540" />
+          <entry key="html" value="4559" />
           <entry key="js" value="4" />
           <entry key="py" value="517" />
-          <entry key="txt" value="68" />
+          <entry key="txt" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4540" />
+          <entry key="HTML" value="4559" />
           <entry key="JavaScript" value="4" />
-          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="PLAIN_TEXT" value="104" />
           <entry key="Python" value="517" />
         </counts>
       </usages-collector>
@@ -104,13 +108,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
-                <element signature="e#1315#2273#0" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -119,24 +122,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/landing-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="117" selection-start-line="9" selection-start-column="117" selection-end-line="9" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/water.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="160" column="33" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="33" />
+            <state relative-caret-position="153">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
               <folding>
-                <element signature="e#776#975#0" />
-                <element signature="e#991#1108#0" />
-                <element signature="e#1124#1248#0" />
-                <element signature="e#1264#1380#0" />
-                <element signature="e#1396#1502#0" />
-                <element signature="e#1518#1656#0" />
-                <element signature="e#1672#1774#0" />
-                <element signature="e#1792#1865#0" />
-                <element signature="e#1889#2005#0" />
-                <element signature="e#2028#2101#0" />
-                <element signature="e#2117#2357#0" />
-                <element signature="e#2384#2480#0" />
-                <element signature="e#2510#2563#0" />
                 <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -149,6 +148,43 @@
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="269" column="46" selection-start-line="269" selection-start-column="46" selection-end-line="269" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1581">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/illumination.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,16 +229,16 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/app/static/main.js" />
-        <option value="$PROJECT_DIR$/app/templates/landing-page.html" />
         <option value="$PROJECT_DIR$/app/templates/videoTest.html" />
         <option value="$PROJECT_DIR$/envVars" />
         <option value="$PROJECT_DIR$/app/templates/autobiography.html" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/templates/illumination.html" />
         <option value="$PROJECT_DIR$/app/templates/water.html" />
         <option value="$PROJECT_DIR$/app/templates/nonNaturalWind.html" />
-        <option value="$PROJECT_DIR$/app/templates/naturalWind.html" />
+        <option value="$PROJECT_DIR$/app/templates/illumination.html" />
         <option value="$PROJECT_DIR$/app/templates/about.html" />
+        <option value="$PROJECT_DIR$/app/templates/landing-page.html" />
+        <option value="$PROJECT_DIR$/app/templates/naturalWind.html" />
       </list>
     </option>
   </component>
@@ -213,8 +249,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -223,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,26 +276,12 @@
               <item name="Watric-Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Watric-Server" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Watric-Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Watric-Server" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Watric-Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Watric-Server" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,14 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539911327324</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Product and about pages updated">
+      <created>1540072539440</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540072539440</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1932886" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19597316" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -423,7 +453,7 @@
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19597316" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -445,6 +475,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" weight="0.3295302" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +488,8 @@
     <MESSAGE value="Updated HTMLs" />
     <MESSAGE value="New version for heroku" />
     <MESSAGE value="Product pages updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product pages updated" />
+    <MESSAGE value="Product and about pages updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product and about pages updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -605,13 +637,7 @@
     <entry file="file://$PROJECT_DIR$/app/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38284">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/main.js" />
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -621,13 +647,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/images/abstract-background-bubble-268883.jpg" />
     <entry file="file://$PROJECT_DIR$/app/templates/autobiography.html" />
-    <entry file="file://$PROJECT_DIR$/app/templates/landing-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -645,27 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/illumination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3587">
-          <caret line="211" column="137" selection-start-line="210" selection-start-column="12" selection-end-line="211" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1774">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="224" column="21" lean-forward="true" selection-start-line="224" selection-start-column="21" selection-end-line="224" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/envVars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -673,24 +671,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/illumination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/water.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="160" column="33" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="33" />
+        <state relative-caret-position="153">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
           <folding>
-            <element signature="e#776#975#0" />
-            <element signature="e#991#1108#0" />
-            <element signature="e#1124#1248#0" />
-            <element signature="e#1264#1380#0" />
-            <element signature="e#1396#1502#0" />
-            <element signature="e#1518#1656#0" />
-            <element signature="e#1672#1774#0" />
-            <element signature="e#1792#1865#0" />
-            <element signature="e#1889#2005#0" />
-            <element signature="e#2028#2101#0" />
-            <element signature="e#2117#2357#0" />
-            <element signature="e#2384#2480#0" />
-            <element signature="e#2510#2563#0" />
             <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -707,13 +703,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/landing-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="117" selection-start-line="9" selection-start-column="117" selection-end-line="9" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
-            <element signature="e#1315#2273#0" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="269" column="46" selection-start-line="269" selection-start-column="46" selection-end-line="269" selection-end-column="46" />
+          <folding>
             <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

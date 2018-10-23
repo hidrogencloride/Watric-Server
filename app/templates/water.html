@@ -151,6 +151,7 @@
           max-height: 700px;
           min-width: auto;
         }
+
         .carousel-control-prev-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
         }
@@ -191,11 +192,11 @@
             }
 
             .pimg1{
-                min-height:35%;
+                min-height:65%;
             }
 
             .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
-                min-height:200px;
+                min-height:400px;
             }
 
             .walt{
@@ -293,6 +294,19 @@
 
         }
 
+        .container {
+            position: relative;
+            text-align: center;
+            color: #666666;
+            font-family: sans-serif;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 60px;
+        }
+
     </style>
 </head>
 <body>
@@ -310,7 +324,6 @@
         </div>
 
         <section class="section section-light">
-            <h2>The Problem</h2>
             <p>
                With the demand for water increasing every year, around 843 million people live without safe access to
                 this essential resource. As it is, the market for sustainability is growing drastically, but it
@@ -396,13 +409,22 @@
                     </ol>
                     <div class="carousel-inner" >
                         <div class="carousel-item active" align="center">
-                            <img class="walt" src="images/prototype3.jpg" alt="First slide">
+                            <div class="container">
+                                <img class="walt" src="images/prototype3.jpg" alt="First slide">
+                                <div class="top-left"><i>First WALT Prototype<i/></div>
+                            </div>
                         </div>
                         <div class="carousel-item" align="center">
-                            <img class="walt" src="images/prototype4.jpg" alt="Second slide">
+                            <div class="container">
+                                <img class="walt" src="images/prototype4.jpg" alt="First slide">
+                                <div class="top-left"><i>First WALT Prototype<i/></div>
+                            </div>
                         </div>
                         <div class="carousel-item" align="center">
-                            <img class="walt" src="images/prototype1.jpg" alt="third slide">
+                            <div class="container">
+                                <img class="walt" src="images/prototype1.jpg" alt="First slide">
+                                <div class="top-left"><i>First WALT Prototype<i/></div>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

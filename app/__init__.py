@@ -62,9 +62,9 @@ def nonNaturalWind():
 def illumination():
     return render_template("illumination.html")
 
-@app.route('/videoTest')
+@app.route('/supportUs')
 def videoTest():
-    return render_template("videoTest.html")
+    return render_template("supportUs.html")
 
 @app.route('/about')
 def about():

@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .fa {
-          padding: 20px;
+          padding: 40px;
           font-size: 30px;
-          width: 70px;
+          width: 110px;
           text-align: center;
           text-decoration: none;
-          margin: 5px 2px;
-          border-radius: 50%;
+          margin: 5px 70px;
+            border-radius: 50%;
         }
 
         .fa:hover {
@@ -52,18 +52,17 @@
 
         p{
             text-align: justify;
-            padding: 30px
+            padding: 10px
         }
 
         .section{
-            text-align:center;
             padding:5px 15px;
-            color: white;
+            color: black;
         }
 
         .section-light{
-            background-color: white;
-            color:black;
+            background-color: #f4f4f4;
+            color:#666;
         }
 
         .section-dark{
@@ -86,11 +85,39 @@
             padding: 12px;
         }
 
-        .aboutPic {
+        .shirts {
+            height: 100%;
+            width: 75%;
             padding-right: 30px;
-            padding-left: 0px;
-            height: 50%;
+            padding-bottom: 30px;
+        }
+
+        .stickers {
+            height: 100%;
+            width: 75%;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            padding-top: 25px;
+        }
+
+        .banner{
             width: 50%;
+            height: 50%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .carousel .carousel-item img {
+          max-height: 700px;
+          min-width: auto;
+        }
+
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        }
+
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
         }
 
         /*@media(max-width:568px){
@@ -200,7 +227,7 @@
         }
     </style>
 </head>
-<body style="background-color: black;">
+<body style="background-color: white;">
         <nav id="the-nav">
             <!-- <img class="headerLogo" src="images/Logo.png"> -->
             <a class="navbar-brand" href="/" style="color: white; font-size:15px;letter-spacing:7px;text-transform:uppercase;">HOME</a>
@@ -208,58 +235,67 @@
 
         <div align="center">
             <a href="/">
-                <img src="images/watric-logo-dark-1-narrow.png">
+                <img class="banner" src="images/watric-logo-light-banner.jpeg">
             </a>
         </div>
 
         <section class="section">
             <p>
-                At Watric Energy Resources, we are interested in everything that involves sustainability. Our mission
-                is to achieve total sustainability in your home through the development of innovative products. We are
-                a start-up focused on helping the world reach a sustainable future, with access to required resources
-                and renewable energy.
-
-                </br></br>
-
-                Since we originate from Puerto Rico, a Caribbean island exposed to natural phenomena such as hurricanes
-                and droughts, we are conscious of the importance of illumination, energy, and water. The life experience
-                that our island provides us is our inspiration for our products in development.
-
-                </br></br>
-
-                This is what we have decided to concentrate on, not only on the collective sustainability but also on
-                the individual one. Through our values, we aim to contribute to a sustainable world.
+                You can help us continue innovating and developing our products to impact the lives of many, reducing
+                costs in the use of water and electricity and helping people to decrease water and energy consumption.
+                Every donation counts and will bring us closer to achieving our goal and bring sustainability to its
+                highest level.
             </p>
+
         </section>
 
-        <section class="section section-light">
-
-            <img class="aboutPic" src="images/founder-walt-4-square.jpg" alt="founder"  align="left">
-
-            <h1 align="left">Karlos Lenniel</h1>
-            <h2 align="left"><i>Our Founder</i></h2>
-
+        <section class="section">
             <p>
-                Karlos Lenniel is an 18-year-old visionary that puts his ideas in motion, first in paper and then into
-                creations. Born and raised in Puerto Rico, a Caribbean island has impacted his outlook on a sustainable life.
+                Contributing can be as simple as following us on social media using Facebook, Twitter, and Instagram or
+                you can accelerate our progress by donating through Patreon or Paypal.
+            </p>
+            <section style="text-align: center">
+                <a href="https://www.facebook.com/WatricEnergyResources/" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/search?src=typd&q=watric" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/watric.er/" target="_blank" class="fa fa-instagram"></a>
+            </section>
+        </section>
 
-                </br></br>
-
-                A product of the public-school system, he’s on track to make renewable resources accessible for everyone.
-                Focused on innovation, his goal is to give environmental sustainability to people, so they can have
-                access to essential resources. Currently, he’s studying Mechanical Engineering at University of Puerto
-                Rico, Mayagüez Campus. As it is, achieving an inclusive world through our company inventions it’s his
-                ultimate dream.
+        <section class="section">
+            <p>
+                You can support us by buying one of our shirts or hoodies, all identified with the Watric logo.
+                If you’re passionate about renewable resources and feel like our project can make an impact, support us today
             </p>
         </section>
+
+        <div class="carousel-container" align="center">
+                <div id="carouselExampleIndicators1"  class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner" >
+                        <div class="carousel-item active">
+                            <img class="shirts" width="80%" src="images/shirts.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="stickers" width="80%" src="images/stickers.jpg" alt="Second slide">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+        </div>
 
         <section class="socialMediaSection" style="text-align: right; padding-right: 100px">
-            <h6 style="padding-right: 105px">
-                Follow Us:
-            </h6>
-            <a href="https://www.facebook.com/WatricEnergyResources/" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/search?src=typd&q=watric" target="_blank" class="fa fa-twitter"></a>
-            <a href="https://www.instagram.com/watric.er/" target="_blank" class="fa fa-instagram"></a>
         </section>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

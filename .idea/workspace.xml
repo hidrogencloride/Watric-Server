@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="remove viewport from landing-page.html temporarily">
+    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="Support us buttons have been changed to local links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/water.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/water.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/supportUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/supportUs.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
           <entry key="README" value="1" />
           <entry key="css" value="2" />
           <entry key="envVars" value="6" />
-          <entry key="html" value="98" />
+          <entry key="html" value="99" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="4" />
           <entry key="js" value="9" />
@@ -71,7 +71,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="98" />
+          <entry key="HTML" value="99" />
           <entry key="Image" value="6" />
           <entry key="JavaScript" value="9" />
           <entry key="PLAIN_TEXT" value="8" />
@@ -82,17 +82,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="envVars" value="12" />
-          <entry key="html" value="7080" />
+          <entry key="html" value="7643" />
           <entry key="js" value="4" />
           <entry key="py" value="559" />
-          <entry key="txt" value="428" />
+          <entry key="txt" value="529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="7080" />
+          <entry key="HTML" value="7643" />
           <entry key="JavaScript" value="4" />
-          <entry key="PLAIN_TEXT" value="440" />
+          <entry key="PLAIN_TEXT" value="541" />
           <entry key="Python" value="559" />
         </counts>
       </usages-collector>
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/water.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="514" column="38" lean-forward="true" selection-start-line="514" selection-start-column="38" selection-end-line="514" selection-end-column="38" />
+            <state relative-caret-position="22">
+              <caret line="513" column="37" selection-start-line="513" selection-start-column="37" selection-end-line="513" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -121,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="411" column="22" selection-start-line="411" selection-start-column="22" selection-end-line="411" selection-end-column="22" />
+            <state relative-caret-position="209">
+              <caret line="409" column="37" selection-start-line="409" selection-start-column="37" selection-end-line="409" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -130,17 +130,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="478" column="92" selection-start-line="478" selection-start-column="92" selection-end-line="478" selection-end-column="92" />
+            <state relative-caret-position="141">
+              <caret line="467" column="73" selection-start-line="467" selection-start-column="73" selection-end-line="467" selection-end-column="73" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/illumination.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/supportUs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="74" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="74" />
+            <state relative-caret-position="-1015">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="e#4255#5266#0#HTML" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,6 +175,7 @@
       <find>row</find>
       <find>the prob</find>
       <find>the pro</find>
+      <find>contai</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,14 +205,14 @@
         <option value="$PROJECT_DIR$/app/templates/autobiography.html" />
         <option value="$PROJECT_DIR$/app/templates/social.css" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/templates/supportUs.html" />
-        <option value="$PROJECT_DIR$/app/templates/illumination.html" />
-        <option value="$PROJECT_DIR$/app/templates/naturalWind.html" />
-        <option value="$PROJECT_DIR$/app/templates/nonNaturalWind.html" />
         <option value="$PROJECT_DIR$/envVars" />
         <option value="$PROJECT_DIR$/app/templates/about.html" />
         <option value="$PROJECT_DIR$/app/templates/landing-page.html" />
+        <option value="$PROJECT_DIR$/app/templates/naturalWind.html" />
         <option value="$PROJECT_DIR$/app/templates/water.html" />
+        <option value="$PROJECT_DIR$/app/templates/illumination.html" />
+        <option value="$PROJECT_DIR$/app/templates/nonNaturalWind.html" />
+        <option value="$PROJECT_DIR$/app/templates/supportUs.html" />
       </list>
     </option>
   </component>
@@ -231,6 +246,19 @@
               <item name="Watric-Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Watric-Server" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Watric-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watric-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Watric-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watric-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Watric-Server" type="b2602c69:ProjectViewProjectNode" />
@@ -571,7 +599,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540747372684</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Support us button in water page test">
+      <created>1540779318569</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1540779318569</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Support us buttons have been changed to local links">
+      <created>1540781379034</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1540781379034</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -651,7 +693,9 @@
     <MESSAGE value="Testing landing page bugs" />
     <MESSAGE value="website update" />
     <MESSAGE value="remove viewport from landing-page.html temporarily" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove viewport from landing-page.html temporarily" />
+    <MESSAGE value="Support us button in water page test" />
+    <MESSAGE value="Support us buttons have been changed to local links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Support us buttons have been changed to local links" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_test.py" />
@@ -842,17 +886,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/supportUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/landing-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/illumination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="366" column="18" lean-forward="true" selection-start-line="362" selection-start-column="12" selection-end-line="366" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="467" column="73" selection-start-line="467" selection-start-column="73" selection-end-line="467" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="409" column="37" selection-start-line="409" selection-start-column="37" selection-end-line="409" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -863,31 +924,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="478" column="92" selection-start-line="478" selection-start-column="92" selection-end-line="478" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="411" column="22" selection-start-line="411" selection-start-column="22" selection-end-line="411" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/illumination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="74" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/water.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="514" column="38" lean-forward="true" selection-start-line="514" selection-start-column="38" selection-end-line="514" selection-end-column="38" />
+        <state relative-caret-position="22">
+          <caret line="513" column="37" selection-start-line="513" selection-start-column="37" selection-end-line="513" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/supportUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1015">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#4255#5266#0#HTML" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

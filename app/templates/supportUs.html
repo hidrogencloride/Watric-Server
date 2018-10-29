@@ -39,6 +39,11 @@
           color: white;
         }
 
+        .fa-paypal{
+            background: #1e477a;
+            color: white;
+        }
+
         body, html{
             height:100%;
             width: 100%;
@@ -52,7 +57,7 @@
 
         p{
             text-align: justify;
-            padding: 10px
+            padding: 10px;
         }
 
         .section{
@@ -76,8 +81,23 @@
         }
 
         .socialMediaSection{
-            padding: 30px;
+            height: 100px;
             background-color: black;
+        }
+
+        .email-text{
+            position: relative;
+
+            
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+
+        .email-icon{
+            position: relative;
+            top: 10px;
+            width: 3%;
+            alignment: left;
         }
 
         #the-nav{
@@ -108,7 +128,7 @@
         }
 
         .carousel .carousel-item img {
-          max-height: 700px;
+          max-height: 500px;
           min-width: auto;
         }
 
@@ -158,6 +178,21 @@
             }
         }*/
 
+        .container {
+            position: relative;
+            text-align: center;
+            color: #666666;
+            font-family: sans-serif;
+            font-size: 50px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
         /* Extra small devices (phones, 600px and down) */
         @media only screen and (max-width: 600px){
             p{
@@ -204,6 +239,14 @@
                 margin: 5px 2px;
                 border-radius: 50%;
             }
+
+            .container {
+            position: relative;
+            text-align: center;
+            color: #666666;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
         }
 
         /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -250,15 +293,22 @@
         </section>
 
         <section class="section">
-            <p>
-                Contributing can be as simple as following us on social media using Facebook, Twitter, and Instagram or
-                you can accelerate our progress by donating through Patreon or Paypal.
-            </p>
             <section style="text-align: center">
                 <a href="https://www.facebook.com/WatricEnergyResources/" target="_blank" class="fa fa-facebook"></a>
                 <a href="https://twitter.com/search?src=typd&q=watric" target="_blank" class="fa fa-twitter"></a>
                 <a href="https://www.instagram.com/watric.er/" target="_blank" class="fa fa-instagram"></a>
             </section>
+
+            <p>
+                Contributing can be as simple as following us on social media using Facebook, Twitter, and Instagram or
+                you can accelerate our progress by donating through our Paypal.
+            </p>
+
+            <div class="row" id="action-buttons" align="center">
+                <div class="col-md-12 col-xs-12">
+                    <a href="https://www.paypal.me/WatricER" target="_blank" class="fa fa-paypal"></a>
+                </div>
+            </div>
         </section>
 
         <section class="section">
@@ -274,12 +324,19 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     </ol>
+
                     <div class="carousel-inner" >
                         <div class="carousel-item active">
-                            <img class="shirts" width="80%" src="images/shirts.jpg" alt="First slide">
+                            <div class="container">
+                                <img class="shirts" width="80%" src="images/shirts.jpg" alt="First slide">
+                                <div class="centered">COMING SOON</div>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="stickers" width="80%" src="images/stickers.jpg" alt="Second slide">
+                            <div class="container">
+                                <img class="stickers" width="80%" src="images/stickers.jpg" alt="Second slide">
+                                <div class="centered">COMING SOON</div>
+                            </div>
                         </div>
                     </div>
 
@@ -296,6 +353,10 @@
         </div>
 
         <section class="socialMediaSection" style="text-align: right; padding-right: 100px">
+            <img class="email-icon" src="images/gmail2.png" align="left">
+            <p class="email-text">
+                watric.er@gmail.com
+            </p>
         </section>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

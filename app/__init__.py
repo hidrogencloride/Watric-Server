@@ -70,10 +70,6 @@ def videoTest():
 def about():
     return render_template("about.html")
 
-@app.route('/verify')
-def about():
-    return render_template("google44be184e35878a57.html")
-
 ### Resources routes ###
 @app.route('/images/<string:image>')
 def return_image(image):

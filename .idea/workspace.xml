@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="Addition of address&#10;change of water image in landing page&#10;fixed issues with walt concept slideshow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/walt-shiny-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/walt-shiny-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/LiveTurbine.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/google44be184e35878a57.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/illumination.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/illumination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/naturalWind.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/naturalWind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/nonNaturalWind.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nonNaturalWind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/social.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/supportUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/supportUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/water.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/water.html" afterDir="false" />
-    </list>
+    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="Product pages updated" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,17 +78,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="envVars" value="12" />
-          <entry key="html" value="9071" />
+          <entry key="html" value="9098" />
           <entry key="js" value="4" />
           <entry key="py" value="641" />
-          <entry key="txt" value="966" />
+          <entry key="txt" value="992" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="9071" />
+          <entry key="HTML" value="9098" />
           <entry key="JavaScript" value="4" />
-          <entry key="PLAIN_TEXT" value="978" />
+          <entry key="PLAIN_TEXT" value="1004" />
           <entry key="Python" value="641" />
         </counts>
       </usages-collector>
@@ -120,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/water.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3893">
-              <caret line="104" column="30" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
+            <state relative-caret-position="629">
+              <caret line="373" column="24" selection-start-line="373" selection-start-column="24" selection-end-line="373" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -129,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="326" column="35" selection-start-line="326" selection-start-column="35" selection-end-line="326" selection-end-column="35" />
+            <state relative-caret-position="161">
+              <caret line="384" column="26" selection-start-line="384" selection-start-column="26" selection-end-line="384" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -203,10 +191,10 @@
         <option value="$PROJECT_DIR$/app/templates/landing-page.html" />
         <option value="$PROJECT_DIR$/app/templates/about.html" />
         <option value="$PROJECT_DIR$/app/templates/supportUs.html" />
-        <option value="$PROJECT_DIR$/app/templates/water.html" />
-        <option value="$PROJECT_DIR$/app/templates/naturalWind.html" />
         <option value="$PROJECT_DIR$/app/templates/nonNaturalWind.html" />
         <option value="$PROJECT_DIR$/app/templates/illumination.html" />
+        <option value="$PROJECT_DIR$/app/templates/naturalWind.html" />
+        <option value="$PROJECT_DIR$/app/templates/water.html" />
       </list>
     </option>
   </component>
@@ -664,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540955290846</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Product pages updated">
+      <created>1540962032092</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1540962032092</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -729,7 +724,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New version for heroku" />
-    <MESSAGE value="Product pages updated" />
     <MESSAGE value="Product and about pages updated" />
     <MESSAGE value="Addition of social media buttons" />
     <MESSAGE value="New pictures added to images folder" />
@@ -753,7 +747,8 @@
     <MESSAGE value="Addition of meta tag for google verification" />
     <MESSAGE value="Addition of sitemap route" />
     <MESSAGE value="Addition of address&#10;change of water image in landing page&#10;fixed issues with walt concept slideshow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of address&#10;change of water image in landing page&#10;fixed issues with walt concept slideshow" />
+    <MESSAGE value="Product pages updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product pages updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/manage.py" />
@@ -1110,15 +1105,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/naturalWind.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="326" column="35" selection-start-line="326" selection-start-column="35" selection-end-line="326" selection-end-column="35" />
+        <state relative-caret-position="161">
+          <caret line="384" column="26" selection-start-line="384" selection-start-column="26" selection-end-line="384" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/water.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3893">
-          <caret line="104" column="30" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
+        <state relative-caret-position="629">
+          <caret line="373" column="24" selection-start-line="373" selection-start-column="24" selection-end-line="373" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -257,8 +257,87 @@
         }
 
         /* Medium devices (landscape tablets, 768px and up) */
-        @media only screen and (min-width: 768px) {
+        @media only screen and (max-width: 768px){
+            p{
+                font-size: 20px;
+                padding: 25px;
+                line-height: 30px;
+            }
 
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+
+            .headerLogo{
+                width: 10%;
+                height: 10%;
+            }
+
+            .aboutPic{
+                width: 44%;
+                padding-bottom: 10px;
+            }
+
+            h1{
+                font-size: 35px;
+                text-align: left;
+            }
+
+            h2{
+                font-size: 30px;
+                text-align: left;
+            }
+
+            h6{
+                font-size: 15px;
+            }
+
+            .fa {
+                padding: 10px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                border-radius: 50%;
+            }
+
+            .email-text{
+                position: relative;
+
+                right: 50px
+                text-align: center;
+
+                font-size: 15px;
+                font-family: sans-serif;
+            }
+
+            .email-icon{
+                position: relative;
+                top: -50px;
+                width: 5%;
+                alignment: center;
+            }
+
+            .location-text{
+                position: relative;
+                bottom: 75px;
+                left: 50px;
+
+                font-size: 7.5px;
+                font-family: sans-serif;
+
+                text-align: center;
+            }
+
+            .location-icon{
+                position: relative;
+                bottom: 53px;
+                left: 60px;
+                width: 7.5%;
+                alignment: center;
+            }
         }
 
         /* Large devices (laptops/desktops, 992px and up) */

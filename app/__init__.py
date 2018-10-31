@@ -70,6 +70,10 @@ def videoTest():
 def about():
     return render_template("about.html")
 
+@app.route('/sitemap')
+def sitemap():
+    return render_template("sitemap.xml")
+
 ### Resources routes ###
 @app.route('/images/<string:image>')
 def return_image(image):

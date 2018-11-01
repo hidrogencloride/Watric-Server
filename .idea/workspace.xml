@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="About us page iPad responsiveness finished">
+    <list default="true" id="ec1f2ff7-0e2a-482d-a8a2-7068d82061cd" name="Default" comment="About page updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/location.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/nonNaturalWind.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nonNaturalWind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/supportUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/supportUs.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,17 +80,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="envVars" value="12" />
-          <entry key="html" value="9604" />
+          <entry key="html" value="9609" />
           <entry key="js" value="4" />
           <entry key="py" value="641" />
-          <entry key="txt" value="1195" />
+          <entry key="txt" value="1259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="9604" />
+          <entry key="HTML" value="9609" />
           <entry key="JavaScript" value="4" />
-          <entry key="PLAIN_TEXT" value="1207" />
+          <entry key="PLAIN_TEXT" value="1271" />
           <entry key="Python" value="641" />
         </counts>
       </usages-collector>
@@ -258,10 +254,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="136">
               <caret line="552" column="46" lean-forward="true" selection-start-line="552" selection-start-column="46" selection-end-line="552" selection-end-column="46" />
             </state>
           </provider>
@@ -293,11 +289,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="254" selection-start-line="254" selection-end-line="254" />
+            <state relative-caret-position="605">
+              <caret line="395" column="16" selection-start-line="395" selection-start-column="16" selection-end-line="395" selection-end-column="16" />
               <folding>
                 <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="e#3065#4031#0#HTML" />
@@ -323,8 +319,6 @@
                 <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#h6#0;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -388,9 +382,9 @@
         <option value="$PROJECT_DIR$/app/templates/water.html" />
         <option value="$PROJECT_DIR$/app/templates/illumination.html" />
         <option value="$PROJECT_DIR$/app/templates/naturalWind.html" />
-        <option value="$PROJECT_DIR$/app/templates/about.html" />
         <option value="$PROJECT_DIR$/app/templates/supportUs.html" />
         <option value="$PROJECT_DIR$/app/templates/nonNaturalWind.html" />
+        <option value="$PROJECT_DIR$/app/templates/about.html" />
       </list>
     </option>
   </component>
@@ -525,20 +519,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529375630846</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Product pages updated">
-      <created>1539905917762</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1539905917762</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Product pages updated">
-      <created>1539906613044</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1539906613044</updated>
     </task>
     <task id="LOCAL-00008" summary="Product pages updated">
       <created>1539911327324</created>
@@ -869,7 +849,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541025427901</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Non natural wind product page texts update">
+      <created>1541029292323</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1541029292323</updated>
+    </task>
+    <task id="LOCAL-00056" summary="About page updated">
+      <created>1541029803744</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1541029803744</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -933,8 +927,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="responsiveness for mobile phones added" />
-    <MESSAGE value="responsiveness added to water page" />
     <MESSAGE value="responsiveness added to all product pages" />
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Minor changes pt. 2" />
@@ -958,7 +950,9 @@
     <MESSAGE value="About page update&#10;iPad responsiveness in progress" />
     <MESSAGE value="Header logos and text changed" />
     <MESSAGE value="About us page iPad responsiveness finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="About us page iPad responsiveness finished" />
+    <MESSAGE value="Non natural wind product page texts update" />
+    <MESSAGE value="About page updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="About page updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/manage.py" />
@@ -1318,10 +1312,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="552" column="46" lean-forward="true" selection-start-line="552" selection-start-column="46" selection-end-line="552" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        <state relative-caret-position="605">
+          <caret line="395" column="16" selection-start-line="395" selection-start-column="16" selection-end-line="395" selection-end-column="16" />
           <folding>
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
             <element signature="e#3065#4031#0#HTML" />
@@ -1347,8 +1348,6 @@
             <element signature="n#style#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#0;n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#h6#0;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -1357,13 +1356,6 @@
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/nonNaturalWind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="552" column="46" lean-forward="true" selection-start-line="552" selection-start-column="46" selection-end-line="552" selection-end-column="46" />
         </state>
       </provider>
     </entry>

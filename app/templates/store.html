@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Support Us</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="/images/Logo.png" />
@@ -90,7 +90,7 @@
             position: relative;
             left: 5px;
 
-            
+
             font-size: 20px;
             font-family: sans-serif;
         }
@@ -125,13 +125,13 @@
             padding: 12px;
         }
 
-        .shirts {
+        .shirt {
             height: 100%;
             width: 65%;
             padding-bottom: 30px;
         }
 
-        .stickers {
+        .sticker {
             height: 100%;
             width: 65%;
             padding-bottom: 30px;
@@ -230,11 +230,6 @@
                 height: 10%;
             }
 
-            .aboutPic{
-                width: 100%;
-                padding-bottom: 10px;
-            }
-
             h1{
                 font-size: 35px;
                 text-align: center;
@@ -259,17 +254,29 @@
                 border-radius: 50%;
             }
 
-            .carousel .carousel-item img {
-              max-height: 500px;
-              min-width: auto;
+            .productInfo{
+                text-align: left;
+                font-size: 15px;
             }
 
-            .container {
-            position: relative;
-            text-align: center;
-            color: #666666;
-            font-family: sans-serif;
-            font-size: 20px;
+            .shirt{
+                width: 50%;
+                position: relative;
+                padding-right: 10px;
+            }
+
+            .jacket{
+                width: 50%;
+                position: relative;
+                padding-right: 10px;
+            }
+
+            .sticker{
+
+            }
+
+            .cup{
+
             }
 
             .socialMediaSection{
@@ -430,7 +437,6 @@
             }
         } */
 
-
         /* Large devices (laptops/desktops, 992px and up) */
         @media only screen and (min-width: 992px) {
 
@@ -454,88 +460,60 @@
             </a>
         </div>
 
-        <section class="section">
-            <p>
-                You can help us continue innovating and developing our products to impact the lives of many, reducing
-                costs in the use of water and electricity and helping people to decrease water and energy consumption.
-                Every donation counts and will bring us closer to achieving our goal and bring sustainability to its
-                highest level.
-            </p>
+        <div>
+            <section class="section section-light" style="padding-bottom: 70px">
+                <img class="shirt" id="shirt-color" align="left">
 
-        </section>
+                <h5 class="productInfo">Size:</h5>
+                <select>
+                    <option
+                        value="Small">Small</option>
+                    <option
+                        value="Medium">Medium</option>
+                    <option
+                        value="Large">Large</option>
+                    <option
+                        value="X-Large">x-Large</option>
+                </select>
 
-        <section class="section">
-            <section style="text-align: center">
-                <a href="https://www.facebook.com/WatricEnergyResources/" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/search?src=typd&q=watric" target="_blank" class="fa fa-twitter"></a>
-                <a href="https://www.instagram.com/watric.er/" target="_blank" class="fa fa-instagram"></a>
+                <h5 class="productInfo">Color:</h5>
+                <select onchange="document.getElementById('shirt-color').src = this.value">
+                    <option
+                        value="images/shirt-white-woman.jpg">White</option>
+                    <option
+                        value="images/shirt-black-woman.jpg">Black</option>
+                </select>
             </section>
-
-            <p>
-                Contributing can be as simple as following us on social media using Facebook, Twitter, and Instagram or
-                you can accelerate our progress by donating through our Paypal.
-            </p>
-
-            <!--
-            <div class="row" id="action-buttons" align="center">
-                <div class="col-md-12 col-xs-12">
-                    <a href="https://www.paypal.me/WatricER" target="_blank" class="fa fa-paypal"></a>
-                </div>
-            </div>
-            -->
-
-            <!-- PayPal donate button -->
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="AV7G9GAW5EUQQ" />
-                <input style="display: block; margin: 0 auto; width: 10%;" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-            </form>
-
-        </section>
-
-        <section class="section">
-            <p>
-                You can also support us by buying one of our shirts, hoodies or stickers all identified with our logo.
-                If you want to be part of our work in making a better sustainable world, start supporting us today!
-            </p>
-        </section>
-
-        <div class="carousel-container" align="center">
-                <div id="carouselExampleIndicators1"  class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    </ol>
-
-                    <div class="carousel-inner" >
-                        <div class="carousel-item active">
-                            <div class="container">
-                                <img class="shirts" width="80%" src="images/shirts.jpg" alt="First slide">
-                                <div class="centered">COMING SOON</div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="container">
-                                <img class="stickers" width="80%" src="images/stickers.jpg" alt="Second slide">
-                                <div class="centered">COMING SOON</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-
-                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
         </div>
 
-        <section class="socialMediaSection" style="text-align: right; padding-right: 100px">
+        <div>
+            <section class="section section-light" style="padding-bottom: 80px">
+                <img class="jacket" id="jacket-color" align="left">
+
+                <h5 class="productInfo">Size:</h5>
+                <select>
+                    <option
+                        value="Small">Small</option>
+                    <option
+                        value="Medium">Medium</option>
+                    <option
+                        value="Large">Large</option>
+                    <option
+                        value="X-Large">x-Large</option>
+                </select>
+
+                <h5 class="productInfo">Color:</h5>
+                <select onchange="document.getElementById('jacket-color').src = this.value">
+                    <option
+                        value="images/jacket-white.jpeg">White</option>
+                    <option
+                        value="images/jacket-black.jpeg">Black</option>
+                </select>
+            </section>
+        </div>
+
+        <div>
+            <section class="socialMediaSection" style="text-align: right; padding-right: 100px">
             <img class="email-icon" src="images/gmail2.png" align="left">
             <p class="email-text" align="left">
                 watric.er@gmail.com
@@ -546,6 +524,7 @@
                 177 Balboa, Parque Industrial La Quintana, Mayaguez, PR, 00680
             </p>
         </section>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
                 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -553,5 +532,11 @@
                 integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
                 integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+            function setImage(select){
+                var image = document.getElementsByName("image-swap")[0];
+                image.src = select.options[select.selectedIndex].value;
+            }
+        </script>
 </body>
 </html>
